@@ -18,5 +18,5 @@ export default function Comments() {
                 {Comments.map(value => <li key={value.id}><Comment description={value}/></li>)}
             </ol>
         </div>
-)
+    )
 }

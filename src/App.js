@@ -1,15 +1,19 @@
 import {useEffect, useState} from "react";
 import './App.css'
 
-import Flights from "./components/Flights";
+import Users from "./components/Users";
+import Posts from "./components/Posts";
+import Comments from "./components/Comments";
 
 function App() {
-   return (
-      <div>
-          <Flights/>
 
-      </div>
-  );
+    return (
+        <div className="wrap">
+            <Users/>
+            <Posts/>
+            <Comments/>
+        </div>
+    );
 }
 
 export default App;
